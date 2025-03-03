@@ -83,17 +83,17 @@ The Order Management System (OMS) will:
 #### **4. Example Scenarios:**
 
 ##### **Scenario 1: Net Buy Position **
-- Client A bought 100 shares of Stock X at ₹ 50 (short sell). 
+- Client A bought 100 shares of Stock X at ₹ 50. 
 - positions: `{stockId: X, quantity: 100, Price: 50}`
 
 ##### **Scenario 2: Continue to have Net Buy Position**
-- Client A sells 50 shares of Stock X at ₹65 (short sell).
+- Client A bought 50 shares of Stock X at ₹65.
 - positions: `{stockId: X, quantity: 150, Price: 55}`
 
 ##### **Scenario 3: Square-Off**
 - Client A sells 110 shares of Stock X at ₹60 (square-off).
 - Reduce 110 shares from the position.
-- Updated positions: `{stockId: X, quantity: 40, averagePrice: 55}`
+- Updated positions: `{stockId: X, quantity: 40, Price: 55}`
 
 ---
 
